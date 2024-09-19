@@ -14,9 +14,9 @@ document
       // Step 5: get balace
       // Step 6: cash out money from account
       // Step 7: update balance
-      const userBalance = document.getElementById("user-balance").innerText;
-      const newBalance = parseFloat(userBalance) - parseFloat(cashOutAmount);
-      document.getElementById("user-balance").innerText = newBalance.toFixed(2);
+      const accountBalance = document.getElementById("account-balance").innerText;
+      const newBalance = parseFloat(accountBalance) - parseFloat(cashOutAmount);
+      document.getElementById("account-balance").innerText = newBalance.toFixed(2);
 
       // Step 8: clear input fields
       document.getElementById("cash-out-amount").value = "";
